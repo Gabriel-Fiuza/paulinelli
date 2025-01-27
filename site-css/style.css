@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62,5%;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.3rem;
+    width: 100%;
+    height: 2.5rem;
+    background-color: #000;
+    color: #fff;
+}
+.nav p{
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
