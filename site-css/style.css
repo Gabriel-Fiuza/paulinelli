@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 :root{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    width: 100%;
+}
+:root{
     font-size: 62,5%;
 }
 .nav{
@@ -19,5 +25,74 @@
 .nav p{
     cursor: pointer;
     font-size: 1.2rem;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.welcome{
+    position: relative;
+    height: 29rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    background-image: url('./img/background_main.jpg');
+    background-position: 20% 20%;
+}
+.welcome h2, .welcome p, .button{
+    position: relative;
+    top: 15%;
+}
+.welcome h2{
+    margin-bottom: 1rem;
+    font-size: 3rem;
+}
+.welcome p{
+    margin-bottom: 1rem;
+}
+
+.button{
+    color: #000;
+    background-color: #d49501;
+    padding: .5rem 1rem;
+    font-weight: 600;
+    border-radius: .3rem;
+    border: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    text-decoration: none;
+}
+.button:hover{
+    border: 2px solid black;
+}
+#menu{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10rem;
+    margin-bottom: -5rem;
+    margin-top: -8rem;
+    gap: 1rem;
+}
+.write{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+.card{
+    font-size: 1rem;
+    height: 20rem;
+    width: 20rem;
+    background-color: #dedcdc;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+.card img{
+    width: 100%;
+    object-fit: cover;
+    border-top-left-radius: .5rem;
+    border-top-right-radius: .5rem;
+}
+.card h3{
+    padding-top: 1rem;
+}
+.card h3, .card p{
+    padding-left: 1rem;
 }
