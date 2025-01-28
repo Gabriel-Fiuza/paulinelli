@@ -66,9 +66,9 @@ body{
 }
 #menu{
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 10rem;
+    grid-template-columns: repeat(5, 1fr);
     gap: 1rem;
+    place-items: center;
 }
 .write{
     display: flex;
@@ -139,6 +139,18 @@ footer{
     color: #fff;
     height: 3rem;
 }
+@media screen and (max-width: 1023px){
+
+}
+@media screen and (max-width: 1440px){
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        place-items: center;
+        padding: 3rem 0 3rem
+    }
+}
 @media screen and (max-width: 767px) {
     :root{
         font-size: .5rem;
@@ -178,12 +190,10 @@ footer{
     #menu{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
-        margin-left: 1.4rem;
+        margin: 1rem auto 1.5rem;
         padding: 0;
-        align-items: center;
-        margin-top: 1rem;
         gap: 1rem;
-        margin-bottom: 1.5rem;
+        place-items: center;
     }
     .write{
         margin-top: 1rem;
@@ -193,5 +203,13 @@ footer{
         align-items: center;
         justify-content: center;
         width: 100%;
+    }
+}
+@media screen and (max-width: 355px){
+    #contact, .address, #aboutus p{
+        font-size: 1rem;
+    }
+    #aboutus p{
+        text-align: center;
     }
 }
