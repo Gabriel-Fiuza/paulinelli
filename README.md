@@ -1,2 +1,2 @@
-Site responsivo de uma pizzaria
-link do site: [Paulinelli's](https://paulinelli.vercel.app)
+Site responsivo de uma pizzaria  
+Link do site: [Paulinelli's](https://paulinelli.vercel.app)
