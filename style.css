@@ -149,7 +149,19 @@ footer{
         padding: 3rem 0 3rem
     }
 }
-@media screen and (max-width: 1439px){
+@media screen and (max-width: 1400px){
+    :root{
+        font-size: .88rem;
+    }
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1rem;
+        place-items: center;
+        padding: 3rem 0 3rem
+    }
+}
+@media screen and (max-width: 878px){
     :root{
         font-size: .7rem;
     }
@@ -221,7 +233,15 @@ footer{
 }
 @media screen and (max-width: 355px){
     :root{
-        font-size: .5rem;
+        font-size: .6rem;
+    }
+    #menu{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 1rem auto 1.5rem;
+        padding: 0;
+        gap: 1rem;
+        place-items: center;
     }
     #contact, .address, #aboutus p{
         font-size: 1rem;
