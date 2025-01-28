@@ -163,6 +163,7 @@ footer{
     #welcome{
         height: 20rem;
         background-position: 30% 25%;
+    }
 }
 @media screen and (max-width: 767px) {
     :root{
